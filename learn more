@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Second Stitch</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="learn.html">Learn</a>
+  </div>
+</nav>
+
+<section>
+  <h1>Environmental Impact</h1>
+
+  <div class="card">Landfill overflow from textiles</div>
+  <div class="card">Water pollution from dyes</div>
+  <div class="card">10% global carbon emissions</div>
+  <div class="card">Microplastic pollution</div>
+
+</section>
+
+</body>
+</html>
