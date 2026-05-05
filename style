@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #020617;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #22c55e;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slot {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+/* 3D GLOBE EFFECT */
+.globe {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.orbit, .orbit2 {
+  position: absolute;
+  width: 60px;
+  animation: spin 6s linear infinite;
+}
+
+.orbit2 {
+  animation-duration: 10s;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg) translateX(80px) rotate(0deg);}
+  to { transform: rotate(360deg) translateX(80px) rotate(-360deg);}
+}
