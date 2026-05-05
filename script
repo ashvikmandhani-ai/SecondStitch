@@ -1,0 +1,19 @@
+// SLOT MACHINE COUNTER
+let target = 2355;
+let current = 0;
+
+function format(num) {
+  return num.toString().padStart(4, '0');
+}
+
+let interval = setInterval(() => {
+  current += Math.floor(Math.random() * 50);
+
+  if (current >= target) {
+    current = target;
+    clearInterval(interval);
+  }
+
+  document.getElementById("counter").innerText = format(current);
+
+}, 80);
