@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Second Stitch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Second Stitch</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="learn.html">Learn</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <h1>Reimagining Waste</h1>
+    <p>Turning old clothes into a sustainable future</p>
+  </div>
+
+  <!-- 3D GLOBE -->
+  <div class="globe">
+    <img src="assets/logo.png" class="orbit">
+    <img src="assets/logo.png" class="orbit2">
+  </div>
+</header>
+
+<section>
+  <h2>Our Impact</h2>
+  <div class="slot" id="counter">0000</div>
+  <p>kg of clothing saved</p>
+</section>
+
+<section class="grid">
+  <div class="card">Sustainable Recycling</div>
+  <div class="card">School Competitions</div>
+  <div class="card">Charitable Impact</div>
+  <div class="card">Community Involvement</div>
+</section>
+
+<section>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSePU3Jgyd4KLSt3_dUi3gXkXSktmUk6OQrSlwUS-R14xJ13iw/viewform?usp=header">
+    <button>Donate Clothes</button>
+  </a>
+</section>
+
+<footer>
+  <p>Contact: ashvikmandhani@gmail.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
