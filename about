@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>Second Stitch</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="learn.html">Learn</a>
+  </div>
+</nav>
+
+<section>
+  <h1>About Us</h1>
+
+  <div class="card">
+    <h3>Ashvik Mandhani</h3>
+    <p>Founder passionate about sustainability and reducing textile waste.</p>
+  </div>
+
+  <div class="card">
+    <h3>Adityaa Halbe</h3>
+    <p>Co-founder inspired by environmental impact through diving.</p>
+  </div>
+
+</section>
+
+</body>
+</html>
